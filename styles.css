@@ -1,0 +1,238 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(140,134,35);
+    background: linear-gradient(90deg, rgba(140,134,35,1) 5%, rgba(60,136,29,1) 11%, rgba(29,107,136,1) 40%, rgba(58,201,157,1) 56%, rgba(125,48,94,1) 87%, rgba(60,136,29,1) 117%, rgba(2,0,36,1) 225%);;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffeb3b;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
+    background: rgb(140,134,35);
+background: linear-gradient(90deg, rgba(140,134,35,1) 5%, rgba(60,136,29,1) 11%, rgba(29,107,136,1) 40%, rgba(58,201,157,1) 56%, rgba(125,48,94,1) 87%, rgba(60,136,29,1) 117%, rgba(2,0,36,1) 225%);
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-section h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.social-links a:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/* About Section Styles */
+#about {
+    background: #7e7070;
+    color: white;
+    padding: 50px 0;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+
+.about-content {
+    max-width: 600px;
+}
+
+/* Skills Section Styles */
+.skills-section {
+    /* background: #266c8c; */
+    color:white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.skills-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-section ul li {
+    background: #333;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: transform 0.3s ease;
+}
+
+.skills-section ul li:hover {
+    transform: translateY(-5px);
+}
+
+/* Projects Section Styles */
+.projects-section {
+    background: #ff7e5f;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.projects-section .project {
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section Styles */
+.contact-section {
+  background:   #6a82fb;
+    color: #fff;
+    padding: 50px 0;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#contact-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+    color: #333;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+#contact-form button {
+    background: #ff7e5f;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+#contact-form button:hover {
+    background: #feb47b;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+   
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-img {
+        margin: 0 auto 20px;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .social-links a {
+        display: inline-block;
+        margin: 10px 0;
+    }
+}
