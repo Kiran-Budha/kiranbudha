@@ -1,5 +1,5 @@
 // Initialize EmailJS
-emailjs.init("budha_98");
+emailjs.init("GaFmFDQ-ELjmBrR49");
 
 document.getElementById("contact-form").addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent the default form submission
