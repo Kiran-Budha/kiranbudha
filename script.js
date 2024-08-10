@@ -3,7 +3,7 @@ emailjs.init("budha_98");
 
 document.getElementById("contact-form").addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent the default form submission
-
+alert("Thank you for your message! I will get back to you soon.");
     // Get form data
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
