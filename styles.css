@@ -40,7 +40,7 @@ nav ul {
     padding: 0;
     margin: 10px 0 0;
     display: flex;
-    justify-content:center;
+    justify-content:space-between;
 }
 
 nav ul li {
