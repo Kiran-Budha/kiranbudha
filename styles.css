@@ -69,8 +69,8 @@ nav ul li a:hover {
 
 
 
-/* Hero Section Styles */
-.hero-section {
+/* main section Styles */
+.main-section {
     /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
     background: rgb(140,134,35);
 background: linear-gradient(90deg, rgba(140,134,35,1) 5%, rgba(60,136,29,1) 11%, rgba(29,107,136,1) 40%, rgba(58,201,157,1) 56%, rgba(125,48,94,1) 87%, rgba(60,136,29,1) 117%, rgba(2,0,36,1) 225%);
@@ -80,12 +80,12 @@ background: linear-gradient(90deg, rgba(140,134,35,1) 5%, rgba(60,136,29,1) 11%,
     margin-top: 100px;
 }
 
-.hero-section h2 {
+.main-section h2 {
     margin-bottom: 20px;
     font-size: 2.5rem;
 }
 
-.hero-section p {
+.main-section p {
     font-size: 1.2rem;
 }
 
